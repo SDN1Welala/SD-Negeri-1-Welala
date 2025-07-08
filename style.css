@@ -1,0 +1,77 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Warna Kustom Utama */
+.bg-primary-custom {
+    background-color: #0d6efd; /* Biru Bootstrap standar, bisa diganti */
+}
+
+.btn-primary-custom {
+    background-color: #0d6efd;
+    border-color: #101ad8;
+    color: #ffffff; /* Keeping button text white for contrast on blue button */
+}
+
+.btn-primary-custom:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    color: #ffffff; /* Keeping button text white for contrast on blue button */
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600;
+    color: #000000 !important; /* Make brand name black */
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #000000 !important; /* Make default nav links black */
+}
+
+.nav-link:hover {
+    color: #333333 !important; /* Slightly lighter black on hover for subtle effect */
+}
+
+.nav-link.active {
+    color: #000000 !important; /* Make active link black */
+    font-weight: 600;
+}
+
+/* Hero Section (Gambar besar di Beranda) */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x600/666/fff?text=Suasana+Sekolah+SDN+1+Welala') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    min-height: 400px;
+}
+
+/* Page Header (Header untuk halaman selain Beranda) */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1920x400/777/fff?text=SDN+1+Welala') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+    min-height: 250px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer a {
+    color: #ffffff; /* Keeping footer links white for contrast on dark blue footer */
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+}
